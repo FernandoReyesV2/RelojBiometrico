@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Relojs Biometrico</title>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <section class="NavbarBio">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand"></a>
+              <button class="btn btn-outline-success" onclick="location.href='http://127.0.0.1:5500/ingresar.html'">
+                Regresar
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <section class="Reloj">
+      <div class="container">
+        <div class="row">
+          <div class="col" id="container-clock">
+            <h1 id="time">00:00:00</h1>
+            <p id="date">date</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="Lista">
+      <div class="container">
+        <div class="row">
+          <div class="col"></div>
+          <div class="col" id="TituloLista">Listado</div>
+          <div class="col"></div>
+        </div>
+        <div class="ListaSombra">
+        <div class="row" id="DatosLista">
+          <div class="col" id="Dato">Nombre</div>
+          <div class="col" id="Dato">Apellido</div>
+          <div class="col" id="Dato">Hora</div>
+          <div class="col" id="Dato">Seccion</div>
+        </div>
+        <div class="row">
+          <div class="col" id="Dato">Juan</div>
+          <div class="col" id="Dato">Gonzales</div>
+          <div class="col" id="Dato">7:30</div>
+          <div class="col" id="Dato">Matutina</div>
+        </div>
+        <div class="row">
+          <div class="col" id="Dato">Alberto</div>
+          <div class="col" id="Dato">Garcia</div>
+          <div class="col" id="Dato">6:30</div>
+          <div class="col" id="Dato">Vespertina</div>
+        </div>
+        <div class="row">
+          <div class="col" id="Dato">Mario</div>
+          <div class="col" id="Dato">Lopez</div>
+          <div class="col" id="Dato">7:24</div>
+          <div class="col" id="Dato">Matutina</div>
+        </div>
+        </div>
+      </div>
+    </section>
+    <script src="clock.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
